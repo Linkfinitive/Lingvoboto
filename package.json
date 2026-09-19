@@ -1,0 +1,9 @@
+{
+  "name": "lingvoboto",
+  "main": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "discord.js": "^14.27.0"
+  }
+}
