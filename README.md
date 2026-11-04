@@ -47,4 +47,5 @@ Ideally, a server should be set up exclusively for two people and the bot. At le
 2. Clone this repo.
 3. Rename the file `.env.example` to `.env` and fill in the three values saved from earlier
 4. Open the file `src/settings.ts` and set the native and target language options. There are other options which can also be edited.
-5. Launch the bot by running `node --env-file=.env .` in the terminal inside the repository. You should see the message "Online" in the logging Discord channel, and the bot should now show as online.
+5. Install depdencies by running `npm install` in the terminal inside the repository.
+6. Launch the bot by running `node --env-file=.env .` in the terminal inside the repository. You should see the message "Online" in the logging Discord channel, and the bot should now show as online.
